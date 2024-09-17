@@ -1,3 +1,4 @@
+/* Reset de margens e paddings */
 body, h1, h2, p {
     margin: 0;
     padding: 0;
@@ -54,7 +55,10 @@ h2 {
 
 footer {
     text-align: center;
-    padding: 10px;
-    background: #333;
+    padding: 15px;
+    background: #d4a373; /* Marrom claro */
     color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
